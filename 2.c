@@ -1,47 +1,47 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    printf("enter day number(1-7):");
-    scanf("%d",&a);
-    switch (a)
-    {
-    case 1:printf("MONDAY");
-        break;
-    case 2:printf("TUESDAY");
-        break;
-    case 3:printf("WEDNESDAY");
-        break;
-    case 4:printf("THURSDAY");
-        break;
-    case 5:printf("FRIDAY");
-        break;
-    case 6:printf("SATURDAY");
-        break;
-    case 7:printf("SUNDAY");
-        break;
-    default:printf("INVALID DAY\n");
-    } 
-
-
     // int a;
-    // float inr;
-    // printf("1. INR to USD\n2. INR to EUR\n3. INR to YEN\n");
-    // printf("Enter your choice:");
+    // printf("enter day number(1-7):");
     // scanf("%d",&a);
-    // printf("Enter amount in INR:");
-    // scanf("%f",&inr);
-    // switch(a)
+    // switch (a)
     // {
-    //   case 1:printf("USD=%.2f\n",inr*0.012);
-    //          break;
-    //   case 2:printf("EUR=%.2f\n",inr*0.011);
-    //          break;
-    //   case 3:printf("YEN=%.2f\n",inr*1.73);
-    //          break;
-    //   default:printf("INVALID CHOICE\n");
-    // }
+    // case 1:printf("MONDAY");
+    //     break;
+    // case 2:printf("TUESDAY");
+    //     break;
+    // case 3:printf("WEDNESDAY");
+    //     break;
+    // case 4:printf("THURSDAY");
+    //     break;
+    // case 5:printf("FRIDAY");
+    //     break;
+    // case 6:printf("SATURDAY");
+    //     break;
+    // case 7:printf("SUNDAY");
+    //     break;
+    // default:printf("INVALID DAY\n");
+    // } 
 
+
+    int a;
+    float inr;
+    printf("1. INR to USD\n2. INR to EUR\n3. INR to YEN\n");
+    printf("Enter your choice:");
+    scanf("%d",&a);
+    printf("Enter amount in INR:");
+    scanf("%f",&inr);
+    switch(a)
+    {
+      case 1:printf("USD=%.2f\n",inr*0.012);
+             break;
+      case 2:printf("EUR=%.2f\n",inr*0.011);
+             break;
+      case 3:printf("YEN=%.2f\n",inr*1.73);
+             break;
+      default:printf("INVALID CHOICE\n");
+    }
+ 
 
 
     // int choice;
