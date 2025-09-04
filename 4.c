@@ -60,16 +60,6 @@ else
    printf("factorial is %d",fact);
 }
 
-
-
-   
-
-
-
-
-
-
-
  return 0;
 
 }
