@@ -59,7 +59,7 @@ int main()
     for(i = 2; i <= 100; i++)
      {
        a = 1; 
-        for(j = 2; j <= i/2; j++) 
+        for(j = 2 ; j <= i/2; j++) 
         {
             if(i % j == 0) 
             {
