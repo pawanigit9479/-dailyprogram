@@ -138,7 +138,7 @@ int main ()
      {
         for (int j = 0; j < 7; j++)  
         {
-          if (j == i || j == 7 - 1 - i)
+          if (j == i || j == 6 - i)
           printf("*");
           else
           printf(" ");
