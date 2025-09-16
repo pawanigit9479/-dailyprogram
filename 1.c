@@ -111,7 +111,7 @@ int main()
     // }
     // else
     // {
-    //    printf("it is not a pallindrome\n,",o);
+    //    printf("it is not a pallindrome\n",o);
     // }
 
 
