@@ -66,7 +66,7 @@ int main()
   int maxSum = arr[n - 1] + arr[n - 2];
     printf("Maximum sum of a pair in the array is: %d\n", maxSum);
 
-                          output: Maximum sum of a pair in the array is: 34
+                          // output: Maximum sum of a pair in the array is: 34
   return 0;
 }  
 
