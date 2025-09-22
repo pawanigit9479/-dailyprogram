@@ -77,12 +77,8 @@ int BSearch()
 }
 int main()
 {
-    int result = BSearch();
-    if (result!=-1)
-        printf("element found at index: %d\n",result);
-    else
-        printf("element not found\n");
-    return 0;
+    int data= BSearch();
+    printf("element found at index: %d",data);
 }
 
                     //   output: element found at index: 2
